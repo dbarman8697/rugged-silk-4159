@@ -21,6 +21,13 @@ h6{
     line-height: 1.5rem;
 }
 
+.plan-mailchimp{
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 65px;
+}
+
 .get{
     font-size: 1.5rem; 
     font-weight:100; 
@@ -29,6 +36,12 @@ h6{
     text-align: center;
 }
 
+.orders{
+    font-size: 10px;
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 40px;
+}
 
 a{
     text-decoration: none;
@@ -79,32 +92,52 @@ a{
 }
 
 .call-to-action{
-    padding: 20px 28px;
+    padding: 15px 28px;
     background-color: rgb(255, 218, 51);
     color: rgb(61, 61, 61);
     border: 0.5px solid gray;
     margin-top: 20px;
     border-radius: 25px;
+    cursor: pointer;
+}
+
+.call-to-action2{
+    cursor: pointer;
 }
 
 
 .mailchimp-cards{
     display: flex;
-   margin-bottom: 300px;
+    margin-top: -30px;
 }
 
-.geeks {
-             overflow: hidden;
-            margin: 0 auto;
+.vid-mailchimp{
+    background-color: rgb(43, 34, 29);
+    height: 600px;
 }
 
-.geeks img {
-    width: 100%;
-    transition: 0.5s all ease-in-out;
+.content{
+    text-align: center;
+    background-color: rgb(43, 34, 29);
+    color: white;
+    margin-top: -10px;
+    padding-bottom: 45px;
 }
 
-.geeks:hover img {
-    transform: scale(1.5);
+#video{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: 55px;
+}
+
+h2{
+    text-align: center;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+    font-size: 12px;
 }
 
 
@@ -130,7 +163,7 @@ a{
     line-height: 25px;
 }
 .mailchimp-cards>div>div{
-    height: 150px;
+    height: 180px;
 }
 .mailchimp-cards>div:nth-child(1){
     background-color: rgb(224, 142, 35);
