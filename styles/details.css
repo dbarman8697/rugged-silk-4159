@@ -66,6 +66,11 @@ a{
     /* width: 100%; */
     padding: 200px 0 60px 0;
 }
+.hero-cont1{
+    /* width: 100%; */
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
 
 .hero{
     width: 75%;
@@ -221,6 +226,17 @@ h2{
 .inner-txt-cont2{
     flex: 1;
     margin: 3% 5%;
+    
+    margin-right: 60px;
+}
+
+.light1{
+    margin-left: -90px;
+}
+
+.inner-txt-cont2>h2{
+    font-size: 35px;
+    margin-left: -10px;
 }
 
 .inner-img-cont2{
