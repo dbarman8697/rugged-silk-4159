@@ -1,0 +1,425 @@
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.med-bg{
+    background-color: #F6F6F4;
+}
+ul{
+    list-style: none;
+    /* padding: 0; */
+}
+#link2{
+    color: #007CA8;
+}
+
+#hero{
+    background-color: #FFE01B;
+}
+
+.hero-cont{
+    width: 75%;
+    margin: auto;
+    padding: 12% 0 8% 0;
+    text-align: center;
+}
+
+/****************** Section - 2 **********************/
+
+.section-2-cont{
+    margin: 7.5rem 0;
+    padding: 0 30px 0 30px;
+    margin-top: 0px;
+    background-color: rgb(247, 247, 247) ;
+    height: 980px;
+}
+
+.section-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid #DBD9D2;
+}
+
+.section-2 > div{
+    flex: 1;
+    border: 1px solid #DBD9D2;
+}
+
+.sec-2-main{
+    padding: 0 40px 40px 40px;
+}
+
+
+.sec-2-btn-cont{
+    margin: auto;
+    width: 170px;
+    margin-top: 30px;
+}
+
+.call-to-action2{
+    color: black;
+    border: 1px solid black;
+    padding: 15px 5px 15px 5px;
+    width: 100%;
+    background-color: rgb(255, 218, 51);
+    border-radius: 30px;
+}
+
+.fa-check{
+    color: #006E7A;
+    margin-right: 5px;
+}
+
+.fa-times{
+    color: #d15808;
+    margin-right: 5px;
+}
+
+.sec-2-top{
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    height: 30px;
+}
+.sec-2-top-tag{
+    background-color: #d3dcf0;
+}
+.sec-2-top > h4{
+    margin: 0;
+    padding-top: 4px;
+}
+
+.price-mailchimp{
+    margin-top: -20px;
+}
+
+/***************** Section - 3 ***********************/
+.section-3-cont{
+    margin: 2rem 0;
+    padding: 0 30px 100px 30px;
+}
+
+.section-3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid #DBD9D2;
+}
+
+.inner-div{
+    display: flex;
+    width: 100%;
+}
+
+.inner-div > div{
+    flex: 1;
+    border: 1.75px solid gray;
+    text-align: center;
+    padding: 3% 5%;
+}
+
+.inner-div > div > h3{
+    margin: 0;
+}
+
+.sec-3-big{
+    flex: 3;
+    border: 1px solid #DBD9D2;
+    padding: 0 40px 40px 40px;
+}
+
+.sec-3-small{
+    flex: 1;
+    border: 1px solid #DBD9D2;
+}
+
+.sec-3-small-inner{
+    padding: 0 40px 40px 40px;
+}
+
+.small-h3{
+    font-size: 1.25rem;
+}
+
+.sec-3-img{
+    width: 100%;
+}
+
+.note-sec-3{
+    width: 60%;
+}
+
+/************ Section - 4 *************/
+
+.section-4-cont{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 7%;
+}
+
+.section-4{
+    display: flex;
+}
+
+.section-4 > div{
+    flex: 1;
+    margin: 40px;
+    width: 50%;
+}
+
+.section-4 > div img{
+    padding-right: 50px;
+    width: 100%;
+
+}
+
+
+
+/************ Section - 5 *************/
+
+.section-5-cont{
+    background-color: #F6F6F4;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.section-5{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+
+.section-5 > div{
+    flex: 1;
+    margin: 40px;
+    width: 50%;
+}
+
+
+.section-5 > div img{
+    padding-right: 50px;
+    width: 100%;
+}
+
+
+
+
+/****************** Section - 6 ****************/
+.section-6-cont{
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin: auto;
+}
+
+.section-6{
+    display: flex;
+}
+
+.section-6 > div{
+    flex: 1;
+    padding: 40px;
+}
+
+.section-6 .left{
+    border-right: 1px solid black;
+}
+
+/****************** Section - 7 ****************/
+.section-7-cont{
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin: auto;
+}
+
+.section-7-inner{
+    display: flex;
+    flex-direction: column; 
+    /* border: 0.2px solid black; */
+}
+
+.section-7-inner div{
+    flex: 1;
+    border: 0.1px solid black;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .section-4{
+        flex-direction: column;
+    }
+    .section-4 > div img{
+        padding-right: 0;
+    }
+    .section-4 > div{
+        width: 80%;
+    }
+    .section-5{
+        flex-direction: column;
+    }
+    .section-5 > div img{
+        padding-right: 0;
+    }
+    .section-5 > div{
+        width: 80%;
+    }
+    .section-6{
+        flex-direction: column;
+    }
+    .section-6 .left{
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    #box-6{
+        padding-left: 10%;
+   }
+}
+@media only screen and (min-width: 600px) {
+    .section-4{
+        flex-direction: column;
+    }
+    .section-4 > div img{
+        padding-right: 0;
+    }
+    .section-4 > div{
+        width: 80%;
+    }
+    .section-5{
+        flex-direction: column;
+    }
+    .section-5 > div img{
+        padding-right: 0;
+    }
+    .section-5 > div{
+        width: 80%;
+    }
+    .section-6{
+        flex-direction: column;
+    }
+    .section-6 .left{
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    
+
+}
+@media only screen and (min-width: 1100px) {
+    .section-4{
+        flex-direction: row;
+    }
+    .section-5{
+        flex-direction: row;
+    }
+    .section-6{
+        flex-direction: row;
+    }
+    .section-6 .left{
+        border-right: 1px solid black;
+        border-bottom: none;
+    }
+}
+
+
+/* @media screen and (max-width: 1200px){
+    .nav-left > a {font-size: 50px;}
+    #nav-bar{
+        height: 75px;
+    }
+    .nav-left{
+        padding-top: 10px; 
+        padding-left: 30px;  
+    }
+    
+} */
+/****************** Section - 7 ****************/
+.section-7-cont{
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin: auto;
+}
+
+.section-7-inner{
+    display: flex;
+    flex-direction: column; 
+    /* border: 0.2px solid black; */
+}
+
+.section-7-inner div{
+    flex: 1;
+    border: 0.1px solid black;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 900px){
+    /* body{
+        margin-left: 10%;
+    } */
+    #box-6{
+         padding-left: 10%;
+    }
+    #box-6 > div{
+    flex-direction: column;
+    margin-left: 10%;
+    }
+    .image-5, .image-6{
+        width: 70%;
+    }
+    .last-text{
+        width: 95vw;
+    }
+}
+@media screen and (min-width: 1300px){
+     #imaginary-box{
+         width: 80%;
+
+         grid-gap: 0;
+         margin: 5% auto 0%;
+         display: grid;
+         grid-template-areas: "a a b"
+                             "a a c";
+     }
+     #box-1{
+         grid-area: a;
+         margin: 0;
+         width: 100%;
+     }
+     .image-1{
+         grid-area: b;
+         width: 100%;
+         padding-left: 0;
+
+     }
+     #box-2{
+         width: 100%;
+         margin: 0;
+         grid-area: c;
+     }
+ }
+ /* @media screen and (max-width: 1200px){
+     .nav-left > a {font-size: 50px;}
+     #nav-bar{
+         height: 75px;
+     }
+     .nav-left{
+         padding-top: 10px; 
+         padding-left: 30px;  
+     }
+     .nav-mid{
+         word-wrap: none;
+     }
+ } */

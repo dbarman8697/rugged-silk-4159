@@ -108,11 +108,136 @@ body{
     margin-top: 10px;
 }
 
+.marketing{
+    display: flex;
+}
+
+.convert1{
+    padding-left: 30px;
+    padding-top: 75px;
+    width: 50%;
+}
+
+.convert1>p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 21px;
+    color: rgb(95, 95, 95);
+}
+
+
+.convert{
+    padding-left: 100px;
+    padding-top: 75px;
+    width: 50%;
+}
+
+.convert>p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 21px;
+    color: rgb(95, 95, 95);
+}
+
+.scale{
+    font-size: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ 
+    color: rgb(27, 27, 27);
+}
+
+.scale1{
+    font-size: 32px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+    color: rgb(27, 27, 27);
+}
+
 .logo{
     width: 60%;
     margin: auto;
     display: block;
     margin-top: -10px;
+}
+
+.java{
+    display: flex;
+}
+.customers{
+    width: 50%;
+    background-color: rgb(245, 194, 99);
+    padding-left: 70px;
+    padding-top: 130px;
+}
+
+.customers>p,a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.customers>a{
+    font-size: 13px;
+}
+
+.revenue{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.revenue1{
+    font-size: 11px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    margin-left: 65px;
+}
+
+#more{
+    font-size:16px; 
+    color: gray;
+}
+
+.visuals{
+    display: flex;
+}
+
+.visuals:hover{
+    background-color: #dfdddd;
+    transition: 0.5s;
+}
+.visuals>img{
+    width: 27%;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+.visuals>div>p{
+    font-size: 13px;
+    margin-top: -17px;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    row-gap: 50px;
+    padding: 90px;
+    margin-top: -100px;
+}
+
+.desclaimer{
+    background-color: #f5f3f0;
+    padding-bottom:10px ;
+}
+
+
+.desclaimer>p{
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.desclaimer>h5{
+    margin-left: 90px;
 }
 
 .fa-search{

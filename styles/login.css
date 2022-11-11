@@ -1,0 +1,147 @@
+body, html {
+    font-family: 'Courier New', monospace;
+    background-color:#ffe01b;
+  }
+#flowers{
+    width: 100vh; /* width of container */
+    height: 1000px; /* height of container */
+    object-fit: cover;
+    object-position: 60% 10%; /* try 20px 10px */ 
+    position: absolute;
+    right:0;  
+    margin-top: 10px;
+}
+
+.whiteSpace{
+   
+    background-color: white;
+    width:50vw;
+    height:190%; 
+    padding-bottom: 50px;
+}
+
+#welcome{
+    margin-top:1.5em;
+    font-size:3em;
+    font-weight: 200;
+}
+#firstPara{
+    margin-bottom: 2em;
+}
+.form{
+    display:flex;
+   flex-direction: column;
+   
+   margin-left:15%;
+   margin-right:20%;
+ 
+}
+.list{
+    display:flex;
+    margin-left:12.5%;
+    margin-right:20%;
+}
+#firstList{
+    margin-right:3em;
+}
+#email{
+    width:85%;
+    height: 3em;
+    margin-bottom: 2em;
+   
+}
+#user{
+    width:85%;
+    height: 3em;
+    margin-bottom: 2em;
+}
+#password{
+    width:85%;
+    height: 3em;
+    margin-bottom: 2em;
+}
+
+#number{
+    width:85%;
+    height: 3em;
+    margin-bottom: 2em;
+}
+
+.btn{
+    width:87%;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    background-color: rgb(255, 218, 51); 
+    font-size: 18px;
+    color: black;
+    border: 0.5px solid black;
+}
+
+.button{
+    
+    margin-left:15%;
+   margin-right:20%;
+   /* display:flex; */
+   width: 80%;
+   
+}
+.signUp{
+   margin-right:5%;
+}
+
+
+/* #signUp{
+   
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+} */
+.input{
+   width: 90%;
+    margin-top: 10px;
+}
+/*
+button color
+#007c89;
+*/
+.disclaimer{
+    margin-top:2em;
+    margin-left:15%;
+    margin-right:20%;
+}
+/* .disclaimer1{
+    margin-top:2em;
+    margin-left:0%;
+    margin-right:20%;
+} */
+#footnote{
+    margin-top:3em;
+    font-size:0.7em;
+    color:gray;
+    width:70%;
+}
+
+#footnote1{
+    margin-top:3em;
+    font-size:0.7em;
+    color:gray;
+    width:120%;
+    margin-left: -60px;
+}
+li{
+    margin-top:0.5em;
+}
+
+
+/* ------------------------------------------- */
+
+
+
+
