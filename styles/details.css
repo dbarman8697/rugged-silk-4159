@@ -154,6 +154,7 @@ h2{
 }
 .mailchimp-cards>div>img:hover{
     transform: scale(0.95);
+    transition: 1s;
 }
 
 .mailchimp-cards>div>div>p{
